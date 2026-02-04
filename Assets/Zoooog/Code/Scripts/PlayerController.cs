@@ -52,10 +52,12 @@ public class PlayerController : MonoBehaviour
         if (direction.magnitude == 0f)
         {
             animator.SetFloat("speed", 0.0f);
+            AudioManager.Instance.sfxSource.Pause();
         }
         else
         {
             animator.SetFloat("speed", 0.5f);
+            AudioManager.Instance.sfxSource.UnPause();
         }
         
 
