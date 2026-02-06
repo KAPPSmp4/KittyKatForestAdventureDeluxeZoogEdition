@@ -3,7 +3,22 @@ guid: af5aa15677ebcee439986fc5c60422c9
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 5f7339e22e76c2640bbd605f87376416, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 152df44166c1bb6419b7dbe0424ecbd1, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: PixelTextureGrid_48
+    second: {fileID: 2800000, guid: 6474596e8246a0b4e8382965f3dbc84d, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
