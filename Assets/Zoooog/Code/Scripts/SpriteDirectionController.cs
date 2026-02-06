@@ -10,7 +10,7 @@ public class SpriteDirectionController : MonoBehaviour
     [SerializeField] Animator animator;
     [SerializeField] SpriteRenderer spriteRenderer;
 
-    private void LateUpdate()
+    private void Update()
     {
         Vector3 camForwardVector = new Vector3(Camera.main.transform.forward.x, 0f, Camera.main.transform.forward.z);
 
@@ -82,6 +82,5 @@ public class SpriteDirectionController : MonoBehaviour
 
         animator.SetFloat("moveX", animationDirection.x);
         animator.SetFloat("moveY", animationDirection.y);
-
     }
 }
