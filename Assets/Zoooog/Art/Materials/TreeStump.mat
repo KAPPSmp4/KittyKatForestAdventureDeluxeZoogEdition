@@ -49,7 +49,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Grass_Texture:
-        m_Texture: {fileID: 2800000, guid: 78088044bac4ea44b9cf184451795c94, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9ffeadfecca558441a8392b5a5f7cadb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -69,7 +69,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Rock_Texture:
-        m_Texture: {fileID: 2800000, guid: 78088044bac4ea44b9cf184451795c94, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9ffeadfecca558441a8392b5a5f7cadb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
@@ -109,7 +109,7 @@ Material:
     - _Glossiness: 0.59999996
     - _GlossyReflections: 1
     - _Grass_Blend: 1
-    - _Grass_Tile: 0.234
+    - _Grass_Tile: 0.2
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
@@ -118,7 +118,7 @@ Material:
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _Rock_Blend: 1
-    - _Rock_Tile: 0.3
+    - _Rock_Tile: 0.2
     - _Smoothness: 0.59999996
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
